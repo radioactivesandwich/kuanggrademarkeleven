@@ -5,3 +5,13 @@
 .recipeTitle {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.recipe {
+	border: 1px solid #eaebeb;
+	margin: 2% 5% 2%;
+	padding: 2%;
+	width: 40%;
+	background-color: white;
+}
+body {
+	background-color: #F5F5F5;
+}
