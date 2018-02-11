@@ -20,3 +20,15 @@ th, td {
 	height: 30px;
 	padding: 10px;
 }
+
+table {
+	display: inline-table;
+	margin: 20px;
+
+}
+
+#wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
