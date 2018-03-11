@@ -32,3 +32,33 @@ table {
     width: 100%;
     padding: 20px;
 }
+
+.weekHeading {
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.day {
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 2;
+	margin-bottom: -15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
